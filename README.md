@@ -1,4 +1,5 @@
-# UCF Bands
+
+# ![UCF logo](http://jpakmedia.com/jpmv3-signature/jpm-signature-logo-ucf.png) UCF Bands
 Exclusive WordPress theme for the [University of Central Florida Bands](http://ucfbands.com/) | **#SwordOfBlack #SoundOfGold**
 
 **Version 2.0 Beta** | Designed & Developed By [Jordan Pakrosnis](http://JordanPak.com/)
