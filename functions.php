@@ -57,26 +57,10 @@ function ucfbands_setup() {
 		'caption',
 	) );
 
-	/*
-	 * Enable support for Post Formats.
-	 * See http://codex.wordpress.org/Post_Formats
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-	) );
-
-	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'ucfbands_custom_background_args', array(
-		'default-color' => 'ffffff',
-		'default-image' => '',
-	) ) );
 }
 endif; // ucfbands_setup
 add_action( 'after_setup_theme', 'ucfbands_setup' );
+
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -89,6 +73,7 @@ function ucfbands_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'ucfbands_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'ucfbands_content_width', 0 );
+
 
 /**
  * Register widget area.
@@ -107,6 +92,7 @@ function ucfbands_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'ucfbands_widgets_init' );
+
 
 /**
  * Enqueue scripts and styles.
