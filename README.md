@@ -39,12 +39,12 @@ WordPress theme for the University of Central Florida's Bands.
 ##Grunt Tasks
 
 **dist** (default)
-'grunt' or 'grunt dist'
+`grunt` or `grunt dist`
 
 - Compile SASS
 
 **watch**
-'grunt watch'
+`grunt watch`
 
 - Compile SASS
 - Run LiveReload
