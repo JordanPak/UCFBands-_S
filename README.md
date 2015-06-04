@@ -14,8 +14,6 @@ WordPress theme for the University of Central Florida's Bands.
 - Section Default
 - Section Grid
 
------
-
 ##Resources
 
 - Masonry
@@ -24,8 +22,6 @@ WordPress theme for the University of Central Florida's Bands.
 - FontAwesome
 - Headroom
 - Modernizr
-
------
 
 ##Dev Tools
 
