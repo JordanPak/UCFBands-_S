@@ -26,12 +26,16 @@ WordPress theme for the University of Central Florida's Bands.
 
 ##Dev Tools
 
-**Installation**
+###Installation
 
 1.  Install [NodeJS](https://nodejs.org/)
 2.  Install Ruby
 3.  Install Grunt
 4.  Run "npm install"
 
-**Grunt Tasks**
-- watch
+
+##Grunt Tasks
+
+**watch**
+- Update CSS
+- Run LiveReload
