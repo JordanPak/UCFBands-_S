@@ -1,5 +1,5 @@
-# UCFBands
-WordPress theme for the University of Central Florida's Bands.
+# UCF Bands
+Exclusive WordPress theme for the [University of Central Florida Bands](http://ucfbands.com/) | **#SwordOfBlack #SoundOfGold**
 
 **Version 2.0 Beta** | Designed & Developed By [Jordan Pakrosnis](http://JordanPak.com/)
 
