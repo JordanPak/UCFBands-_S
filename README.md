@@ -32,10 +32,16 @@ WordPress theme for the University of Central Florida's Bands.
 2.  Install Ruby
 3.  Install Grunt
 4.  Run "npm install"
+5.  Install [LiveReload](http://livereload.com/#download) & its [Browser Plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+6.  Enable LiveReload in browser window
 
 
 ##Grunt Tasks
 
+**dist** (default)
+- Compile SASS
+
 **watch**
-- Update CSS
+- Compile SASS
 - Run LiveReload
+- Wait for another change!

@@ -3,29 +3,46 @@ module.exports = function (grunt) {
 		
 		pkg: grunt.file.readJSON('package.json'),
 		
+        
 		// SASS TASK
 		sass: {
 			dist: {
+                // Disabled b/c comments are removed & breaks WP Listing
+                //options: {
+                //    style: 'compressed'
+                //},
 				files: {
 					'style.css' : 'sass/style.scss'
 				}
 			}
 		},
 		
+        
 		// WATCH TASK
 		watch: {
-            options: {
-                livereload: true
-            },
 			css: {
-				files: '**/*.scss',
-				tasks: ['sass']
+				files: ['sass/*.scss'],
+				tasks: ['sass'],
+                options: {
+                    livereload: true,
+                    spawn: false
+                }
 			}
 		}
+        
+        
 	});
 
-	grunt.loadNpmTasks('grunt-contrib-sass');
+    
+    //-- REGISTER & LOAD TASKS --//
+    
+	// NPM Stuff
+    grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default', ['watch']);
-
+    
+    // Grunt Registrations
+    grunt.registerTask('dist', ['sass:dist']);
+    
+    // Default
+    grunt.registerTask('default', ['dist']);
 };
