@@ -1,7 +1,7 @@
 # UCFBands
 WordPress theme for the University of Central Florida's Bands.
 
-**Version 2.0 Beta** | Based on [_S](http://underscores.me/)
+**Version 2.0 Beta** | Designed & Developed By [Jordan Pakrosnis](http://JordanPak.com/)
 
 ------
 
