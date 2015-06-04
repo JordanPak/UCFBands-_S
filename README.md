@@ -24,16 +24,34 @@ WordPress theme for the University of Central Florida's Bands.
 - [Headroom](http://wicky.nillia.ms/headroom.js/)
 - [Modernizr](http://modernizr.com/)
 
+
+
 ##Dev Tools
 
 ###Installation
 
-1.  Install [NodeJS](https://nodejs.org/)
-2.  Install Ruby
-3.  Install Grunt
-4.  Run "npm install"
-5.  Install [LiveReload](http://livereload.com/#download) & its [Browser Plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
-6.  Enable LiveReload in browser window
+**Install Node.js & NPM**
+```
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
+```
+
+**Install Grunt**
+
+`sudo npm install -g grunt-cli`
+
+
+**NPM Install** so Grunt can be used
+
+`sudo npm install`
+
+
+**LiveReload**
+
+- Install [LiveReload](http://livereload.com/#download) & its [Browser Plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
+- Enable LiveReload in browser window
+
 
 
 ##Grunt Tasks
